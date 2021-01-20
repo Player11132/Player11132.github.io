@@ -1,0 +1,182 @@
+/* Universal Styles */
+
+html {
+    font-size: 16px;
+    font-family: "Arial", sans-serif;
+  }
+  
+  body {
+    background-color: #e7e7e7;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 28px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 2.5;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  p {
+    margin: 16px 0;
+  }
+  
+  
+  /* Header */
+  
+.Box{
+    margin-top: 77px;
+    border: rgb(85, 85, 85) solid 3px;
+}
+
+  .header {
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    color:#4A4A4A;
+    line-height: 1.25;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .header li {
+    display: inline-block;
+  }
+
+  .header li.button :hover{
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+      background-color: lightblue;
+  }
+
+  .header li.itext{
+      margin-right: 100px;
+      float:right;
+      font-weight: bold;
+  }
+  
+  .header a {
+    display: block;
+    color: #4A4A4A;
+    font-size: large;
+    padding: 30px 20px;
+  }
+
+  .games li.button :hover{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+    background-color: lightblue;
+}
+
+.games{
+    list-style-type: none;
+}
+  
+  .games  a {
+    display: block;
+    color: #4A4A4A;
+    font-size: large;
+    padding: 30px 20px;
+  }
+
+  a.home {
+    color: #4A4A4A;
+  }
+  
+  .game{
+      font-size: large;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bold;
+      text-align: center;
+      color:rgb(85, 85, 85);
+  }
+  
+  .disc{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+
+.bot a {
+    display: block;
+    color: #ffffff;
+    font-size: large;
+    padding: 30px 20px;
+  }
+
+  .bot li.button :hover{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+    background-color: #7289d9;
+}
+
+.bot{
+    list-style-type: none;
+}
+
+.Dbox{
+    margin-top: 77px;
+    border: #7289d9 solid 3px;
+    background-color: #2b2b2b ;
+}
+
+  .banner {
+    background-color: lightblue;
+    padding: 100px 0;
+    margin-top: 77px;
+    text-align: center;
+  }
+  
+  .welcome {
+    background-color:rgb(85, 85, 85);
+    padding: 100px 0;
+    margin-top: 77px;
+    text-align: center;
+  }
+
+  .welcome h1 {
+    border-top: 1px solid #fff;
+    padding: 10px;
+    color: #ffffff;
+  }
+
+  .welcome h4{
+    padding: 10px;
+    color: #ffffff;
+    border-bottom: 1px solid #fff;
+  }
+
+  .banner p {
+    border-top: 1px solid #575757;
+    border-bottom: 1px solid #575757;
+    padding: 10px;
+    color: #575757;
+  }
+  
+
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
